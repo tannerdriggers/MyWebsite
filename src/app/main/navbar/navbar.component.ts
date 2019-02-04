@@ -8,15 +8,9 @@ import { RedirectService } from 'src/app/redirect.service';
 })
 export class NavbarComponent implements OnInit {
 
-  navbarOpen = false;
-
   constructor(private redirect: RedirectService) { }
 
   ngOnInit() {
-  }
-
-  toggleNavbar() {
-    this.navbarOpen = !this.navbarOpen;
   }
 
 }

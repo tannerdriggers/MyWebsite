@@ -6,7 +6,17 @@ import { Router } from '@angular/router';
 })
 export class RedirectService {
 
+  navbarOpen = false;
+
   constructor(private router: Router) { }
+
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
+  }
+
+  disableNavbar() {
+    this.navbarOpen = false;
+  }
 
   homeRedirect() {
     this.router.navigate(['']);
