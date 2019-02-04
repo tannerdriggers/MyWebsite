@@ -1,0 +1,41 @@
+.border-bottom-navbar {
+    border-bottom: 1px solid #bbb;
+}
+
+.navbar-clear {
+    background: transparent;
+}
+
+.nav-text {
+    text-emphasis: bold;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+a .img {
+    cursor: pointer;
+}
+
+.border-contact {
+    border: 2px solid #dee2e6 !important;
+}
+
+.nav-item .text-white:hover {
+    color: #999 !important;
+}
+
+.navbar-toggler {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-toggler .fa-navicon {
+    box-sizing: border-box;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+}
